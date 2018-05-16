@@ -27,9 +27,9 @@
 		7A22364A34D38C91D859D354 /* ofxGuiLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E4BC31293B5855C601FB91 /* ofxGuiLabel.cpp */; };
 		7AB003C531E50666511A7982 /* ofxGuiSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6478A0882AE2B72C38FD01D9 /* ofxGuiSlider.cpp */; };
 		7CEBB18388F905779AB54F80 /* ofxGuiGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 508D15A543715E9E0BAB61A8 /* ofxGuiGraphics.cpp */; };
+		8355C39820ACC075002AA424 /* SelectionGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8355C39720ACC075002AA424 /* SelectionGui.cpp */; };
 		837B18A320A34CE900E3DA64 /* Colour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837B18A220A34CE900E3DA64 /* Colour.cpp */; };
 		837B18A620A3778700E3DA64 /* ColourGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837B18A420A3778700E3DA64 /* ColourGui.cpp */; };
-		837B18A820A37B1900E3DA64 /* SelectionGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837B18A720A37B1900E3DA64 /* SelectionGui.cpp */; };
 		837B18AA20A37C9B00E3DA64 /* ShapeGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837B18A920A37C9B00E3DA64 /* ShapeGui.cpp */; };
 		837B18AE20A37DE900E3DA64 /* VideoGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837B18AD20A37DE900E3DA64 /* VideoGui.cpp */; };
 		837B18B020A37E3300E3DA64 /* ProgrammerGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 837B18AF20A37E3300E3DA64 /* ProgrammerGui.cpp */; };
@@ -122,9 +122,9 @@
 		7A4B52B532EA74539045A6EF /* Element.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Element.cpp; path = ../../../addons/ofxGuiExtended/src/DOM/Element.cpp; sourceTree = SOURCE_ROOT; };
 		8207B315A28488595D2D415C /* ofxGuiValuePlotter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiValuePlotter.cpp; path = ../../../addons/ofxGuiExtended/src/controls/ofxGuiValuePlotter.cpp; sourceTree = SOURCE_ROOT; };
 		8302B416207D752F005AFCC7 /* primaryTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = primaryTheme.json; sourceTree = "<group>"; };
+		8355C39720ACC075002AA424 /* SelectionGui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectionGui.cpp; sourceTree = "<group>"; };
 		837B18A220A34CE900E3DA64 /* Colour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Colour.cpp; sourceTree = "<group>"; };
 		837B18A420A3778700E3DA64 /* ColourGui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColourGui.cpp; sourceTree = "<group>"; };
-		837B18A720A37B1900E3DA64 /* SelectionGui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SelectionGui.cpp; path = ../SelectionGui.cpp; sourceTree = "<group>"; };
 		837B18A920A37C9B00E3DA64 /* ShapeGui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShapeGui.cpp; sourceTree = "<group>"; };
 		837B18AD20A37DE900E3DA64 /* VideoGui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoGui.cpp; sourceTree = "<group>"; };
 		837B18AF20A37E3300E3DA64 /* ProgrammerGui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProgrammerGui.cpp; sourceTree = "<group>"; };
@@ -224,11 +224,11 @@
 		837B18AB20A37D3B00E3DA64 /* Gui */ = {
 			isa = PBXGroup;
 			children = (
+				8355C39720ACC075002AA424 /* SelectionGui.cpp */,
 				837B18AD20A37DE900E3DA64 /* VideoGui.cpp */,
 				837B18B120A3873C00E3DA64 /* PlaybackGui.cpp */,
 				837B18AF20A37E3300E3DA64 /* ProgrammerGui.cpp */,
 				837B18A920A37C9B00E3DA64 /* ShapeGui.cpp */,
-				837B18A720A37B1900E3DA64 /* SelectionGui.cpp */,
 				837B18A420A3778700E3DA64 /* ColourGui.cpp */,
 			);
 			name = Gui;
@@ -543,13 +543,13 @@
 				F632072F6E6313CD75B4B70F /* ofxGuiInputField.cpp in Sources */,
 				837B18B220A3873C00E3DA64 /* PlaybackGui.cpp in Sources */,
 				7A22364A34D38C91D859D354 /* ofxGuiLabel.cpp in Sources */,
+				8355C39820ACC075002AA424 /* SelectionGui.cpp in Sources */,
 				35535925AAEE52A64874B881 /* ofxGuiRangeSlider.cpp in Sources */,
 				7AB003C531E50666511A7982 /* ofxGuiSlider.cpp in Sources */,
 				5DF76B748ED2393A56E6914F /* ofxGuiToggle.cpp in Sources */,
 				03CD6A4243F666D36FA8F868 /* ofxGuiValuePlotter.cpp in Sources */,
 				96D881793A465B099189E933 /* ofxGuiZoomableGraphics.cpp in Sources */,
 				C688DEE8EC1EFF0A266883D3 /* Document.cpp in Sources */,
-				837B18A820A37B1900E3DA64 /* SelectionGui.cpp in Sources */,
 				D8C5E586C319057792A7D92E /* Element.cpp in Sources */,
 				FAB5D5A57D66F2406B4066CE /* Events.cpp in Sources */,
 				1E47EA1A0575BB8C39BB0E96 /* Exceptions.cpp in Sources */,
