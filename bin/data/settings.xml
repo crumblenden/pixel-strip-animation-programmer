@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<group>
+	<group />
+	<Wave_Type>0</Wave_Type>
+	<Period>1</Period>
+	<Spread>8</Spread>
+	<Chunk_Size>1</Chunk_Size>
+	<Random>0</Random>
+	<Width>0.5</Width>
+	<Minimum>0</Minimum>
+	<Maximum>255</Maximum>
+	<Direction>0</Direction>
+	<Red>255</Red>
+	<Green>255</Green>
+	<Blue>255</Blue>
+	<Alpha>255</Alpha>
+</group>
+<_Wave_Generator>
+	<Wave_Type>
+		<Sine>0</Sine>
+		<Cosine>0</Cosine>
+		<Ramp_Up>0</Ramp_Up>
+		<Ramp_Down>0</Ramp_Down>
+		<Pulse>1</Pulse>
+		<Triangle>0</Triangle>
+	</Wave_Type>
+	<Period>0.805578</Period>
+	<Spread>29</Spread>
+	<Chunk_Size>6</Chunk_Size>
+	<Width>0.0413223</Width>
+	<Range>
+		<Range>0</Range>
+		<UnknownName>255</UnknownName>
+	</Range>
+	<Direction>1</Direction>
+	<Wave_Preview>159</Wave_Preview>
+	<Colour_Target>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+		<Alpha>255</Alpha>
+	</Colour_Target>
+</_Wave_Generator>

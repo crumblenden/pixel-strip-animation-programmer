@@ -1,0 +1,76 @@
+{
+    "theme3": {
+        "base": {
+            "background-color": "rgba(80,80,80,80)",
+            "fill-color": "rgba(225, 215, 80, 0.6)",
+            "border-width": 2,
+            "padding": 2,
+            "border-color": "rgba(0,0,0,0.4)",
+            "text-color": "rgb(255,215,80)",
+            "text-padding": 2,
+            "border-radius": 2
+        },
+        
+        "panel": {
+            "width": 270,
+            "direction": "vertical",
+            "show-header": true,
+            "background-color": "rgba(80,80,80,0.4)",
+            "padding": 10
+        },
+        
+        "panel-header": {
+            "height": 20,
+            "border-width": 0,
+            "background-color": "rgba(80,80,80,0.9)",
+            "text-color": "rgb(255,215,80)"
+        },
+        
+        "group": {
+            "width": "100%",
+            "text-color": "rgb(255,215,80)",
+            "background-color": "transparent",
+            "padding": 5,
+            "margin": "0 0 5 5"
+        },
+        
+        "group-header": {
+            "height": 20,
+            "border-width": 0,
+            "background-color": "transparent",
+            "text-color": "rgb(255,215,80)"
+            
+        },
+        
+        "slider": {
+            "precision": 3,
+            "width": "100%"
+        },
+        
+        "toggle": {
+        },
+        
+        "tabs": {
+            "background-color": "rgba(80,80,80,0.3)",
+            "fill-color": "rgba(225, 215, 80, 0.6)",
+            "border-width": 2,
+            "padding": 2,
+            "border-color": "rgba(0,0,0,0.4)",
+            "text-color": "rgb(255,215,80)",
+            "text-padding": 2,
+            "show-header": false,
+            "border-radius": 2
+            
+        },
+        
+        "label": {
+            "height": 20,
+            "margin": "0 0 0 0",
+            "padding": "0 2 0 2",
+            "text-padding": 0
+        }
+        
+        
+        
+    }
+}
